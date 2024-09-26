@@ -31,6 +31,16 @@ Creating Masks for Drivable regions using Json Files
 ![image](https://github.com/user-attachments/assets/5f65872d-1685-45ec-9e58-b681e18521fc)
 ![image](https://github.com/user-attachments/assets/fd9105ea-e2ce-4b16-b06e-6f1d3c3f7e35)
 
-Resizing Image and Binary Masks to (256,256)
-Batch_size=16
+- Resizing Image and Binary Masks to (256,256)
+- Batch_size=16
+
+## Training and Inference
+U-Net Architecture with loss criteria BCEWithLogitsLoss and Adam Optimisation
+![image](https://github.com/user-attachments/assets/746aeced-a991-48e7-9de8-ddadd73e1202)
+
+Inference time using NVIDIA Tesla P100 GPU is 2.4 ms
+![image](https://github.com/user-attachments/assets/87e18b40-dc1c-488f-a52e-75f068d4b58d)
+![image](https://github.com/user-attachments/assets/f5709588-e57d-41de-ab16-b0047654b909)
+
+
 
